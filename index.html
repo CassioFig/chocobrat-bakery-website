@@ -28,7 +28,7 @@
                 <div class="middle-section">
                     <input class="search-bar" type="text" placeholder="Search">
                     <button class="search-button">
-                        <img class="search-icon" src="images/search-button.png" alt="search-icon">
+                        <img class="search-icon" src="images/search-button.png" alt="search-icon" style="filter: invert(100%);">
                     </button>
                 </div>
                 <i class="fas fa-user"></i>
@@ -118,43 +118,108 @@
                 </button>
             </div>
         </section>
-        <section>
-            <div>
-                <h3>We Bake for you Fresh From the oven</h3>
+        <section
+            style="
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            "
+        >
+            <div
+                style="
+                    flex: 0 0 50%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 4rem 4rem;
+                "
+            >
+                <h3 class="moreread">We Bake for you Fresh From the oven</h3>
                 <p>We use quality materials that we get drirectly from farmers.Our backers are exeperienced people in
                     the food sector. So that the products we produce are guaranteed quality and taste. It´s so
                     delicious, you have to try it.</p>
+                <a href="#" alt="read-more" class="readmore" style="margin-top: 50px;">Read More →</a>
             </div>
-            <a href="#" alt="read-more">Read More →</a>
-            <div>
-                <img class="woman2" src="images/woman.png" alt="woman2">
+            <div
+                style="
+                    flex: 0 0 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                "
+            >
+                <img class="woman2" src="images/woman.png" alt="woman2" style="width: 600px; height: auto;">
             </div>
         </section>
-        <section class="baking-woman">
-            <div>
-                <img class="woman" src="images/woman.png" alt="woman">
+        <section 
+            class="baking-woman"
+            style="
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                padding-bottom: 4rem;
+            "
+        >
+            <div
+                style="
+                    flex: 0 0 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                "
+            >
+                <img class="woman" src="images/woman.png" alt="woman"  style="width: 600px; height: auto;">
             </div>
 
-            <div class="favourite">
+            <div 
+                class="favourite"
+                style="
+                    flex: 0 0 50%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 4rem 4rem;
+                "
+            >
                 <h3 class="moreread">Come and choose your favourite</h3>
                 <p>Try to come to our shop directly to enjoy the delicious taste of the cake that just came out of the
                     oven. While enjoying it with a cup of coffee or tea in our very convenient shop. Very suitable for
                     chatting, meeting with your team.</p>
-                <a class="readmore" href="#">Read More →</a>
+                <a class="readmore" href="#" style="margin-top: 50px;">Read More →</a>
             </div>
         </section>
         <section class="contactus">
-            <h3 class="h3-contact">For Cake Orders above 1 KG</h3>
+            <h3 class="h3-contact" style="font-size: 1.5rem;">For Cake Orders above 1 KG</h3>
             <p>Please visit our nearest store or call us on +91 00 00 00 00 00 (10 AM to 7 PM) <br>to place your orders.
             </p>
-            <button class="button-contact">Contact Us Now</button>
+            <button 
+                class="button-contact"
+                style="
+                    padding: .8rem 2rem;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    border: 1px solid #6E260E;
+                    color: white;
+                    background-color: #6E260E;
+                    margin-top: 30px;
+                "
+            >
+                Contact Us Now
+            </button>
         </section>
-        <section class="writer">
+        <section 
+            class="writer"
+            style="
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            "
+        >
             <span class="text-writer">QUOTES</span>
             <p class="text-man">The eggless cakes here are really good. Had ordered a kit kat cake which was really
                 good. Surely worth a try.
             <figure>
-                <img class="man" src="images/man.png" alt="man">
                 <img class="man" src="images/man.png" alt="man">
                 <figcaption>
                     <p class="daren">Darren Dunlap</p>
@@ -165,7 +230,7 @@
         </section>
     </main>
     <footer>
-        <div class="footer-up">
+        <div class="footer-up" style="padding: 2rem 0;">
             <div class="chocobrat">
                 <h1>Chocobrat</h1>
             </div>
@@ -182,8 +247,8 @@
             </nav>
         </div>
 
-        <hr>
-        <div class="footer-bottom">
+        <hr style="background-color: #6E260E;">
+        <div class="footer-bottom" style="padding: 2rem 0;">
             <div class="text-bottom">
                 <p>&copy; Chocobrat All rights reserved.</p>
             </div>

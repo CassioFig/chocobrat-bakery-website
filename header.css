@@ -1,16 +1,11 @@
-* {
-    margin: 0;
-    padding: 2px;
-    box-sizing: border-box;
-}
-
 .header-section {
     height: 65px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
-    background-color: rgb(255, 236, 213);
+    align-items: center;
+    padding: 0 20px;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -93,11 +88,7 @@ nav ul :first-child {
     display: flex;
     justify-content: space-around;
     align-items: last baseline;
-    height: 70px;
-}
-
-.chocobrat {
-    text-size
+    height: 100px;
 }
 
 hr {
@@ -166,30 +157,8 @@ footer {
     font-size: xx-large;
 }
 
-.woman {
-    height: 140;
-    ;
-}
-
 .favourite {}
 
-img.woman {
-    float: left;
-    height: 230px;
-    width: 450px;
-    padding-right: 20px;
-    border-radius: 30px;
-
-}
-
-.baking-woman {
-    display: flex;
-    height: 280px;
-    text-align: justify;
-    line-height: 1.6em;
-    margin: 60px;
-    max-width: 900px;
-}
 
 a {
     list-style: none;

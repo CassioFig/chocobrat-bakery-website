@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Section 1 - Start */
@@ -110,7 +111,7 @@ main section:nth-child(2) div:nth-child(1) {
 }
 
 main section:nth-child(2) div:nth-child(1) h2 {
-	flex: 0 0 25%;
+	flex: 0 0 30%;
 	text-align: left;
 	color: #6E260E	;
 	font-size: 3rem;
@@ -119,7 +120,7 @@ main section:nth-child(2) div:nth-child(1) h2 {
 }
 
 main section:nth-child(2) div:nth-child(1) p {
-	flex: 0 0 75%;
+	flex: 0 0 70%;
 	text-align: left;
 	font-size: 1.5rem;
 	border-left: .25px solid #6E260E;
